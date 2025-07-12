@@ -1,7 +1,7 @@
 # secure-communication-via-audio-steganography
 
 ## Description
-A secure communication application that is able to perform audio steganography as [seen here](https://www.youtube.com/watch?v=c1NPYY3F3tM).
+A secure communication application that is able to perform audio steganography as [seen here](https://www.youtube.com/watch?v=-nEjcmOSe7E).
 
 ## Setting Up
 ### Install Dependencies
