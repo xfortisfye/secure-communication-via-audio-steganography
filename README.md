@@ -7,12 +7,12 @@ A secure communication application that is able to perform audio steganography a
 ### Install Dependencies
 1. Install PyQt5
 ```bash
-> cd \Path\to\secure-communication-via-audio-steganography
+> cd \Path\to\root-folder
 > pip install PyQt5
 ```
 2. Install pycryptodome
 ```bash
-> cd \Path\to\secure-communication-via-audio-steganography
+> cd \Path\to\root-folder
 > pip install pycryptodome
 ```
 If above doesn't work, uninstall the following and try again.
@@ -24,12 +24,12 @@ If above doesn't work, uninstall the following and try again.
 ```
 3. Install cryptography
 ```bash
-> cd \Path\to\secure-communication-via-audio-steganography
+> cd \Path\to\root-folder
 > pip install cryptography
 ```
 4. Install PyAudio
 ```bash
-> cd \Path\to\secure-communication-via-audio-steganography
+> cd \Path\to\root-folder
 > pip install wheel
 > pip install PyAudio
 ```
@@ -45,19 +45,19 @@ Checking of python version: `> python`
 ### Option 1: Using Python
 1. Run server.py (currently is set to localhost)
 ```bash
-> cd \Path\to\secure-communication-via-audio-steganography
+> cd \Path\to\root-folder
 > py server.py
 ```
 2. Run main.py
 ```bash
-> cd \Path\to\secure-communication-via-audio-steganography
+> cd \Path\to\root-folder
 > py main.py
 ```
 
 ### Option 2: Using GNU Make (For main.py only)
 1. To run the program
 ```bash
-> cd \Path\to\secure-communication-via-audio-steganography
+> cd \Path\to\root-folder
 > make
 ```
 2. To clean compiled files (.pyc)
