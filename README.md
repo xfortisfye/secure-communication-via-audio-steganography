@@ -1,15 +1,18 @@
-# ict2205-calltography
+# secure-communication-via-audio-steganography
+
+## Description
+A secure communication application that is able to perform audio steganography as [seen here](https://www.youtube.com/watch?v=c1NPYY3F3tM).
 
 ## Setting Up
 ### Install Dependencies
 1. Install PyQt5
 ```bash
-> cd \Path\to\ict2205-calltography
+> cd \Path\to\secure-communication-via-audio-steganography
 > pip install PyQt5
 ```
 2. Install pycryptodome
 ```bash
-> cd \Path\to\ict2205-calltography
+> cd \Path\to\secure-communication-via-audio-steganography
 > pip install pycryptodome
 ```
 If above doesn't work, uninstall the following and try again.
@@ -21,12 +24,12 @@ If above doesn't work, uninstall the following and try again.
 ```
 3. Install cryptography
 ```bash
-> cd \Path\to\ict2205-calltography
+> cd \Path\to\secure-communication-via-audio-steganography
 > pip install cryptography
 ```
 4. Install PyAudio
 ```bash
-> cd \Path\to\ict2205-calltography
+> cd \Path\to\secure-communication-via-audio-steganography
 > pip install wheel
 > pip install PyAudio
 ```
@@ -42,19 +45,19 @@ Checking of python version: `> python`
 ### Option 1: Using Python
 1. Run server.py (currently is set to localhost)
 ```bash
-> cd \Path\to\ict2205-calltography
+> cd \Path\to\secure-communication-via-audio-steganography
 > py server.py
 ```
 2. Run main.py
 ```bash
-> cd \Path\to\ict2205-calltography
+> cd \Path\to\secure-communication-via-audio-steganography
 > py main.py
 ```
 
 ### Option 2: Using GNU Make (For main.py only)
 1. To run the program
 ```bash
-> cd \Path\to\ict2205-calltography
+> cd \Path\to\secure-communication-via-audio-steganography
 > make
 ```
 2. To clean compiled files (.pyc)
